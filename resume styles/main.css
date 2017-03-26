@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+
+h1, h2, h3, h4 {
+	color: #E564A4;
+	font-family: 'Baloo Bhaina', cursive;
+}
+
+h6 {
+	font-size: 32px;
+}
+
+li {
+	list-style: none;
+}
