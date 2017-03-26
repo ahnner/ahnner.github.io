@@ -8,7 +8,7 @@ $('#movie-search-form').keyup(function() {
 function searchIMDB(query) {
   // this is the function that makes the request with jQuerys's getJSON
 
-  $.getJSON('http://www.omdbapi.com/', {
+  $.getJSON('https://www.omdbapi.com/', {
     t: query, // this query comes from the argument passed in parens above, which
     plot: "short",
     r: 'json'
